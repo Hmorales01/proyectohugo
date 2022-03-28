@@ -143,7 +143,7 @@ h4 {
 }
 
 .div .header {
-    grid-area: header;
+  grid-area: header;
 }
 
 .div .main {
@@ -158,14 +158,13 @@ h4 {
   grid-area: footer;
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .div {
-      grid-template-areas:
-        "header header header"
-        "main main main"
-        "main main main"
-        "section section section"
-        "footer footer footer";
-    }
+  .div {
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main"
+      "section section section"
+      "footer footer footer";
+  }
+}
